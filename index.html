@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating component</title>
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#121417] h-screen flex items-center justify-center">
+    <div class="flex flex-col w-[270px] bg-[#252d37] p-5 rounded-lg" id="changeResult">
+        <img src="/images/icon-star.svg" alt="" class="h-[15px] w-[15px] my-3 " />
+         <p class="text-white font-weight text-1xl mt-1 mb-3">How did we do?</p>
+         <P class="text-[#959eac] text-xs leading-5">Please let us know how we did with your support request.All feedback is appreciated to help us improve our offering!</P>
+          <div class="flex justify-evenly mt-3">
+            <button class="bg-[#121417] text-[white] px-3 py-1 rounded-full buttons hover:bg-orange-400 focus:bg-[#959eac]">1</button>
+            <button class="bg-[#121417] text-[white] px-3 py-1 rounded-full buttons hover:bg-orange-400 focus:bg-[#959eac]">2</button>
+            <button class="bg-[#121417] text-[white] px-3 py-1 rounded-full buttons hover:bg-orange-400 focus:bg-[#959eac]">3</button>
+            <button class="bg-[#121417] text-[white] px-3 py-1 rounded-full buttons hover:bg-orange-400 focus:bg-[#959eac]">4</button>
+            <button class="bg-[#121417] text-[white] px-3 py-1 rounded-full buttons hover:bg-orange-400 focus:bg-[#959eac]">5</button>
+          </div>
+          <button class="bg-orange-400 rounded-full mt-5 py-3 font-bold hover:bg-white hover:text-orange-400" id="submitButton">SUBMIT</button>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
